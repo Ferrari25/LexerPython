@@ -442,7 +442,7 @@ def automataPuntoComa(lexema):
         else:
              ESTADO_NO_FINAL
              
-#------- AUTOMATA PUNTO-COMA
+#------- AUTOMATA PARENTESIS ABIERTO
 def automataParenOpen(lexema):
     estadoactual = 0
     estadosfinales = [1]
@@ -461,7 +461,7 @@ def automataParenOpen(lexema):
     else:
         return ESTADO_NO_FINAL
 
-#------- AUTOMATA PUNTO-COMA
+#------- AUTOMATA PARENTESIS CERRADO
 def automataParenClose(lexema):
         estadoactual=0
         estadosfinales=[1]
